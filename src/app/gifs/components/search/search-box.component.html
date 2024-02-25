@@ -1,0 +1,13 @@
+<div class="contentSearch">
+  <input
+    type="text"
+    class="form-control"
+    placeholder="Search gifs"
+    (keyup.enter)="searchTag()"
+    #tagInput
+    id="searchBar"
+  />
+  <button type="button" class="btn draw-border" (click)="searchTag()">
+    Buscar
+  </button>
+</div>
